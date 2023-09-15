@@ -1,7 +1,7 @@
 body {
     margin: 0px;
     font-family: sans-serif;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 /* Body Header */
@@ -212,16 +212,22 @@ font-weight: 400;
     width: 96%;
     height: inherit;
 }
+.mb-blue{
+    background-color: palevioletred;
+
+}
+
 .mb-red{
-    background-color: red;
+    background-color:rgb(60, 87, 104);
 
 }
 .mb-green{
-    background-color: green;
+    background-color:palevioletred;
+
 
 }
 .mb-orenge{
-    background-color: orangered;
+    background-color: rgb(60, 87, 104);
 
 }
 
@@ -230,7 +236,7 @@ font-weight: 400;
 
   }
   .mb-brown{
-    background-color: rgb(94, 6, 35);
+    background-color:rgb(60, 87, 104);
   }
 
   /* Experience section */
@@ -255,13 +261,13 @@ font-weight: 400;
     height: 16px;
     border-radius: 50%;
     right: calc(100% + 22px);
-    top: 0;
-    background-color: #11a372;
+    top: 80px;
+    background-color:rgb(60, 87, 104);
     border: 2px solid white;
   }
   .box h4{
     position: relative;
-    color: #11a372  ;
+    color:rgb(60, 87, 104);
   }
   /* .box h4{
     font-size: 19px;
@@ -394,7 +400,7 @@ font-weight: 400;
     border: none;
     cursor: pointer;
     padding: 10px;
-    font-size: 18px;
+    font-size: 1rem;
 }
 @media(max-width:991px) {
     #contact{
@@ -409,7 +415,7 @@ font-weight: 400;
     .container1 .contactInfo{
         width: 100px; 
     }
-    
+
 }
 .hight{
     margin-top: 6px;
